@@ -4,5 +4,16 @@
 # EXCEPT the .gitignore file itself (always a good idea)
 !.gitignore
 
-# EXCEPT for file "a" in the root directory
-!a.txt
+# EXCEPT following files
+!data.json
+
+# Thumbnail
+!thumbnail/
+!thumbnail/**
+thumbnail/*
+!thumbnail/*.png
+!thumbnail/*.jpg
+!thumbnail/*.jpeg
+!thumbnail/*.gif
+!thumbnail/*.webp
+!thumbnail/*.avif
