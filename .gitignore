@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# EXCEPT the .gitignore file itself (always a good idea)
+!.gitignore
+
+# EXCEPT for file "a" in the root directory
+!a.txt
